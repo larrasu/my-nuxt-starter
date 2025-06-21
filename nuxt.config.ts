@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui',
     '@nuxthub/core',
     'nuxt-auth-utils',
+    '@nuxt/ui',
   ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
